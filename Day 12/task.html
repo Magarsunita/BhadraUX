@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day12task</title>
+    <style>
+.box{
+      background-color: #151414;
+      height: 900px;
+    }
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+   
+
+    .swiper{ 
+     
+      width: 96%;
+      height: 500px;
+      margin-top: 5px;
+      margin-left: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      
+      
+      
+
+
+    }
+
+    .swiper-slide {
+        background-color: blue;
+      text-align: center;
+      font-size: 18px;
+      background: rgb(31, 31, 31);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+   
+    .title {
+      font-size: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 15px;
+      color: white;
+    }
+
+   
+    .direction2{
+      display: flex;
+      justify-content: space-between;
+    }
+    .text1 {
+      color: red;
+      margin-left: 15px;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .text2 {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-left: 10px;
+      color: white;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .text3 {
+      font-family:cursive;
+      font-size: 45px;
+      margin-left: 10px;
+      color: white;
+    }
+    .text4{
+      margin-top: 60px;
+      color: white;
+      margin-right: 40px;
+      font-size: 18px ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+    <div>
+      <p class="text1">01//</p>
+      <p class="text2">SERVICES</p>
+    </div>
+    <div class="direction2">
+    <header class="title">Our Photography <br><p class="text3">Services</p>
+    </header>
+    <p class="text4">we’re deeply passionate <b>catch your lovely memories in cameras </b><br>and Convey your love for every moment of life as a whole.</p></pre>
+
+    </div><pre>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">01 <br>Outdoor <br> Photography</div>
+        <div class="swiper-slide">02 <br>Photography <br> Training</div>
+        <div class="swiper-slide">03 <br> Photography <br> Archive</div>
+        <div class="swiper-slide">04 <br>Studio <br> Photography</div>
+        <div class="swiper-slide"> 06 <br>Wildlife <br> Photography</div>
+        <div class="swiper-slide"> 07 <br>Personal <br> Portfolio shoot</div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+</html>

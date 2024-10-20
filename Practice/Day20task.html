@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 500px;
+            background-color: rgb(241, 234, 234);
+            border-radius: 20px;
+            
+            
+    
+        }
+        
+
+
+            
+        
+        #box2{
+            height: 30px;
+            width: 415px;
+            background-color: purple;
+            position: relative;
+           bottom: 4rem;
+            left: 2rem;
+            animation-name:  movebox;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+            
+
+
+        }
+        
+        @keyframes movebox{
+            0%{
+                background-color: red;
+                width: 50px;
+            }
+            25%{
+                background-color: yellow;
+                width: 100px;
+                
+                
+            }
+            50%{
+                background-color: whitesmoke;
+                width: 200px;
+            
+
+            }
+            75%{
+                background-color: purple;
+                width: 300px;
+            }
+            100%{
+                background-color: violet;
+                width:415px ;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2">
+            
+        
+    </div>
+</body>
+</html>

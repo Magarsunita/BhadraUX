@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+}
+
+
+.box {
+    background-color: rgb(32, 23, 23);
+    height: 900px;
+}
+
+.tt1 {
+    color: red;
+}
+
+.tt2 {
+    color: white;
+    font-size: 30px;
+
+}
+
+.title {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+
+.tt3 {
+    position: relative;
+    color: white;
+    font-family: cursive;
+
+
+}
+
+.tt4 {
+    position: relative;
+    color: white;
+    margin-left: 900px;
+    bottom: 20rem;
+    font-size: 20px;
+
+
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 150%;
+    bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    flex-direction: column;
+    height:300px;
+    transition: all 1s;
+    /* transition-property: background-color;
+    transition-duration: 1s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    transition-timing-function: ease-in-out;
+    /* transition-timing-function: cubic-bezier(1,-0.5, 0.2, 0.85); */
+
+}
+
+.swiper-slide img {
+    background-color: white;
+    display: block;
+    width:90px;
+    
+    object-fit: cover;
+
+}
+.swiper-slide:hover{
+
+    background-color: brown;
+    cursor: pointer;
+    /* cursor: help; */
+    font-size: 2rem;
+}

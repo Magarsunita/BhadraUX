@@ -1,0 +1,302 @@
+.navbar{
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+    font-size: 35px;
+    
+
+}
+.list{
+position: relative;
+left: 50rem;
+top: 2rem;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ width: 300px;
+ 
+ 
+}
+.icon{
+    position: relative;
+    left: 70rem;
+    display: flex;
+    justify-content: space-between;
+    width:100px;   
+}
+.img{
+    position: relative;
+    top:6rem ;
+    left:45rem ;
+}
+.img2{
+    position: relative;
+    bottom: 18rem;
+    left: 10rem;
+}
+.text{
+    position: relative;
+    bottom: 19rem;
+    left: 10rem;
+    font-size: 25px;
+
+}
+.text2{
+    position: relative;
+    bottom: 20rem;
+    left: 9.5rem;
+    font-size: 25px;
+}
+.img3{
+    color: grey;
+    position: relative;
+    bottom: 19rem;
+    left: 10rem;
+}
+.text3{
+    color: grey;
+    position: relative;
+    bottom: 21.2rem;
+    left:11.2rem;
+    
+    
+}
+.head2{
+    position: relative;
+    left: 10rem;
+    bottom: 15rem;
+    font-size: 25px;
+}
+.head3{
+    position: relative;
+    font-size: 20px;
+    left: 60rem;
+    bottom: 20rem;
+}
+.text4{
+    color: grey;
+    position: relative;
+    bottom: 20rem;
+    left: 10rem;
+}
+ .img4{
+
+    position: relative;
+    left: 8.3rem;
+    bottom: 18rem;
+    transition: all 1s;
+    
+ }
+ .button{
+    background-color: rgb(43, 38, 38);
+    color: white;
+    position: relative;
+    left: 30rem;
+    bottom: 157rem;
+    border-radius: 10px;
+
+ }
+ .t1{
+    position: relative;
+    left: 30rem;
+    bottom:157rem ;
+ }
+ .t2{
+    color: grey;
+    position: relative;
+    left: 30rem;
+    bottom:157rem ;
+ }
+ .t3{
+    color: grey;
+    position: relative;
+    left: 30rem;
+    bottom:157rem ;
+
+
+ }
+ .t4{
+    
+    position: relative;
+    left: 30rem;
+    bottom:157rem ;
+
+ }
+ .button2{
+    background-color:white;
+    color: black;
+    position: relative;
+    bottom: 153rem;
+    left: 7rem;
+    border-radius: 35px;
+    padding: 20px;
+    width: 60px;
+    transition: all 1s;
+    
+
+   
+ }
+ .button3{
+   border: none;
+    background-color:white;
+    color: white;
+    position: relative;
+    bottom: 153rem;
+    left: 7rem;
+    border-radius: 35px;
+    padding: 20px;
+    width: 60px;
+    transition: all 1s;
+    
+    
+   
+ }
+ .button4{
+   border: none;
+    background-color:white;
+    color: white;
+    position: relative;
+    bottom: 153rem;
+    left: 7rem;
+    border-radius: 35px;
+    padding: 20px;
+    width: 60px;
+    transition: all 1s;
+    
+    
+   
+ }
+ .button5{
+   border: none;
+    background-color:white;
+    color: white;
+    position: relative;
+    bottom: 153rem;
+    left: 7rem;
+    border-radius: 35px;
+    padding: 20px;
+    width: 60px;
+    transition: all 1s;
+    
+   
+    
+   
+ }
+ .button6{
+  background-color: white;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 153rem;
+    left: 7rem;
+    border-radius: 35px;
+    padding: 20px;
+    width: 60px;
+    transition: all 1s;
+
+    
+    
+     
+ }
+ .img5{
+    position: relative;
+    left: 60rem;
+    bottom: 304rem;
+    
+    
+ }
+ .tt1{
+    position: relative;
+    left: 68rem;
+    bottom: 330rem;
+ }
+ .tt2{
+    position: relative;
+    left: 68rem;
+    bottom: 330rem; 
+ }
+ .img6{
+    display: flex;
+    position: relative;
+    bottom: 198rem;
+    
+ }
+ .ttt1{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   bottom: 195rem;
+ }
+ .list2{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+ width: 300px;
+ position: relative;
+ left: 35rem;
+ bottom: 195rem;
+
+ }
+ .icon2{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+ width: 150px;
+ position: relative;
+ left: 40rem;
+ bottom: 192rem;
+ }
+ .icon2:hover{
+   cursor: pointer;
+ }
+ .img6:hover{
+   cursor: pointer;
+ }
+ .tt1:hover{
+cursor: pointer;
+ }
+ .img5:hover{
+   cursor: pointer;
+ }
+ .button2:hover{
+   cursor: pointer;
+   background-color: black;
+
+ }
+ .button3:hover{
+   cursor: pointer;
+   background-color: black;
+ }
+ .button4:hover{
+   cursor: pointer;
+   background-color: black;
+ }
+ .button5:hover{
+   cursor: pointer;
+ }
+ .button6:hover{
+   cursor: pointer;
+   background-color: black;
+ }
+ .button:hover{
+   cursor: pointer;
+ }
+ .t1:hover{
+   cursor: pointer;
+ }
+ .img4:hover{
+   cursor: pointer;
+
+ }
+ .navbar:hover{
+   cursor: pointer;
+ }
+ .list:hover{
+   cursor: pointer;
+
+ }
+ .icon:hover{
+   cursor: pointer;
+ }
+
+    

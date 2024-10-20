@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    font-family: montse;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+.navlinks{
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
